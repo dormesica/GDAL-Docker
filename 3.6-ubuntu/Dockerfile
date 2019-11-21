@@ -1,5 +1,4 @@
-#### Use latest Ubuntu LTS release as the base
-FROM ubuntu:bionic
+FROM gcc
 
 # Update base container install
 RUN apt-get update
